@@ -37,4 +37,4 @@ print(json.dumps(metadata_json, indent=4))
 ```
 
 ## License
-https://github.com/polkascan/py-sr25519-bindings/blob/master/LICENSE
+https://github.com/polkascan/py-subwasm-bindings/blob/master/LICENSE
