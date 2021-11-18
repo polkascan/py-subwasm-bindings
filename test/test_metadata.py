@@ -27,7 +27,7 @@ class MyTestCase(unittest.TestCase):
         self.assertIsNotNone(metadata_json)
 
     def test_metadata_rpc_url(self):
-        metadata_str = subwasm.get_metadata("wss://rpc.polkadot.io/")
+        metadata_str = subwasm.get_metadata("wss://rpc.polkadot.io:443/")
         metadata_json = json.loads(metadata_str)
         self.assertIsNotNone(metadata_json)
 
