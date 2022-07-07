@@ -2,7 +2,7 @@
 name = "py-subwasm-bindings"
 description = "Python bindings for subwasm library"
 authors=["Polkascan Foundation"]
-version = "0.0.2"
+version = "0.0.3"
 repository = "https://github.com/polkascan/py-subwasm-bindings"
 homepage = "https://github.com/polkascan/py-subwasm-bindings"
 license = "Apache-2.0"
@@ -10,9 +10,9 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-subwasmlib = { git = "https://github.com/arjanz/subwasm"}
-wasm-loader = { git = "https://github.com/arjanz/subwasm"}
-wasm-testbed = { git = "https://github.com/arjanz/subwasm"}
+subwasmlib = { git = "https://github.com/chevdor/subwasm"}
+wasm-loader = { git = "https://github.com/chevdor/subwasm"}
+wasm-testbed = { git = "https://github.com/chevdor/subwasm"}
 serde_json = "1.0.61"
 
 [dev-dependencies]
